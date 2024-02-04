@@ -61,7 +61,7 @@ Automated testing will include unit tests, integration tests, and end-to-end tes
 Security will be a top priority, and measures like encryption, token-based authentication, and role-based access control (RBAC) will be implemented.
 Regular security audits and penetration testing will be conducted to identify and mitigate vulnerabilities.
 Compliance with industry standards such as GDPR and HIPAA will be ensured for data protection and privacy.
-CI Pipeline with Artifact Diagram in README.md (D2 Diagram):
+### CI Pipeline with Artifact Diagram in README.md (D2 Diagram):
 
 d2
 Copy code
@@ -83,10 +83,9 @@ Copy code
                     +---------+
                     |   Deploy   |
                     +---------+
-README.md Description:
 
 The CI pipeline depicted above illustrates the automated workflow for building, testing, and deploying the Slack-like system. Upon code changes in the source repository, the pipeline triggers a series of stages including building the application, running tests, packaging artifacts, publishing artifacts to an artifact repository, and finally deploying the application to the target environment. This automated process ensures efficient and reliable software delivery while maintaining quality through automated testing.
 
-Conclusion:
+## Conclusion
 
 The proposed architecture for the Slack-like system leverages microservices, modern web technologies, cloud infrastructure, and CI/CD practices to create a scalable, reliable, and maintainable messaging platform. Each architectural element is designed to fulfill specific responsibilities, ensuring modularity and flexibility. By incorporating best practices in security, monitoring, and deployment automation, the system aims to provide a seamless user experience while meeting stringent performance and reliability requirements.
