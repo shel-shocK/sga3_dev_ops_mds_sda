@@ -1,4 +1,4 @@
-![image](https://github.com/shel-shocK/sga3_dev_ops_mds_sda/assets/106492666/fb7f87c9-85fd-46ff-ac1e-673a7ecc5b71)# Design of a Slack-like System
+# Design of a Slack-like System
 
 ## Top-level Description of Proposed Architecture:
 
