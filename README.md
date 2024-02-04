@@ -1,4 +1,4 @@
-# Design of a Slack-like System
+![image](https://github.com/shel-shocK/sga3_dev_ops_mds_sda/assets/106492666/fb7f87c9-85fd-46ff-ac1e-673a7ecc5b71)# Design of a Slack-like System
 
 ## Top-level Description of Proposed Architecture:
 
@@ -63,26 +63,7 @@ Regular security audits and penetration testing will be conducted to identify an
 Compliance with industry standards such as GDPR and HIPAA will be ensured for data protection and privacy.
 ### CI Pipeline with Artifact Diagram in README.md (D2 Diagram):
 
-d2
-Copy code
-+------------+       +------------+       +------------+
-|   Source   |  -->  |   Build    |  -->  |   Test     |  --> ...
-+------------+       +------------+       +------------+
-                         |
-                         v
-                    +---------+
-                    | Package |
-                    +---------+
-                         |
-                         v
-                    +---------+
-                    | Publish |
-                    +---------+
-                         |
-                         v
-                    +---------+
-                    |   Deploy   |
-                    +---------+
+![image](https://github.com/shel-shocK/sga3_dev_ops_mds_sda/assets/106492666/1d2d1562-3d8d-41b7-b442-a053ff125eca)
 
 The CI pipeline depicted above illustrates the automated workflow for building, testing, and deploying the Slack-like system. Upon code changes in the source repository, the pipeline triggers a series of stages including building the application, running tests, packaging artifacts, publishing artifacts to an artifact repository, and finally deploying the application to the target environment. This automated process ensures efficient and reliable software delivery while maintaining quality through automated testing.
 
