@@ -1,10 +1,10 @@
 # Design of a Slack-like System
 
-## Top-level Description of Proposed Architecture:
+## Top-level Description of Proposed Architecture
 
 The proposed architecture for the Slack-like system follows a microservices-based approach to ensure scalability, flexibility, and maintainability. The system will consist of several loosely coupled components, each responsible for specific functionalities. The architecture will be designed to support real-time communication, user authentication, message storage, and various other features typical of a messaging platform.
 
-## Detailed Description of Each Architecture Element:
+## Detailed Description of Each Architecture Element
 
 ### Frontend Application
 
