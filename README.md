@@ -6,7 +6,7 @@ The proposed architecture for the Slack-like system follows a microservices-base
 
 ## Detailed Description of Each Architecture Element:
 
-**a. Frontend Application:**
+### a. Frontend Application:
 
 The frontend application will be responsible for rendering the user interface and handling user interactions.
 It will be developed using modern web technologies such as React.js to provide a responsive and intuitive user experience.
